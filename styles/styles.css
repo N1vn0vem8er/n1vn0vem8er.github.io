@@ -113,3 +113,56 @@ body::before {
 .project-tile:hover .tag {
   border-color: rgba(255, 255, 255, 0.3);
 }
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    text-align: left;
+}
+
+.about-main {
+    height: 100%;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-links .tag {
+    padding: 10px 20px;
+    background: rgba(0, 255, 170, 0.1);
+    border-color: rgba(0, 255, 170, 0.2);
+    color: #00ffaa;
+    text-decoration: none;
+}
+
+.social-links .tag:hover {
+    background: rgba(0, 255, 170, 0.2);
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 992px) {
+    .about-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .about-sidebar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-sidebar {
+        grid-template-columns: 1fr;
+    }
+}
