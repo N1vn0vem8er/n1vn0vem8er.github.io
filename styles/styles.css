@@ -116,7 +116,7 @@ body::before {
 
 .about-wrapper {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr;
     gap: 30px;
     text-align: left;
 }
@@ -159,10 +159,113 @@ body::before {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
+    .project-detail-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
     .about-sidebar {
         grid-template-columns: 1fr;
     }
+}
+
+.back-nav {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    color: #d9d9d9;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: #00ffaa;
+}
+
+.project-detail-grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 30px;
+    text-align: left;
+}
+
+.project-hero-image {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.03);
+    margin-bottom: 30px;
+}
+
+.image-placeholder {
+    color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.detail-section {
+    margin-bottom: 30px;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    margin-bottom: 12px;
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.features-list i {
+    color: #00ffaa;
+    font-size: 14px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.action-tag {
+    justify-content: center;
+    padding: 12px !important;
+    text-decoration: none;
+    width: 100%;
+}
+
+.action-tag.primary {
+    background: rgba(0, 255, 170, 0.1);
+    border-color: rgba(0, 255, 170, 0.4);
+    color: #00ffaa;
+}
+
+.action-tag.primary:hover {
+    background: rgba(0, 255, 170, 0.2);
+    box-shadow: 0 0 15px rgba(0, 255, 170, 0.2);
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.info-item .label {
+    color: #888;
+}
+
+.info-item .value {
+    color: #f2f2f2;
+    font-weight: 500;
 }
