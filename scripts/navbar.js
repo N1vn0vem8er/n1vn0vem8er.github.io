@@ -19,8 +19,8 @@ class MainNavbar extends HTMLElement {
             <div class="row">
               <header>Developer tools</header>
               <ul class="mega-links">
-                <li><a href="#">8080 IDE</a></li>
-                <li><a href="#">Cute Toolbox</a></li>
+                <li><a href="/pages/8080ide-page.html">8080 IDE</a></li>
+                <li><a href="/pages/cutetoolbox-page.html">Cute Toolbox</a></li>
                 <li><a href="#">CppEasyRun</a></li>
               </ul>
             </div>
