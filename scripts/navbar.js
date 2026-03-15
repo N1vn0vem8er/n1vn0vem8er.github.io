@@ -21,13 +21,13 @@ class MainNavbar extends HTMLElement {
               <ul class="mega-links">
                 <li><a href="/pages/8080ide-page.html">8080 IDE</a></li>
                 <li><a href="/pages/cutetoolbox-page.html">Cute Toolbox</a></li>
-                <li><a href="#">CppEasyRun</a></li>
+                <li><a href="/pages/cppeasyrun-page.html">CppEasyRun</a></li>
               </ul>
             </div>
             <div class="row">
               <header>Desktop applications</header>
               <ul class="mega-links">
-                <li><a href="#">Pinecone Snake</a></li>
+                <li><a href="/pages/pineconesnake-page.html">Pinecone Snake</a></li>
                 <li><a href="#">Recipsimplgo</a></li>
               </ul>
             </div>
