@@ -28,7 +28,7 @@ class MainNavbar extends HTMLElement {
               <header>Desktop applications</header>
               <ul class="mega-links">
                 <li><a href="/pages/pineconesnake-page.html">Pinecone Snake</a></li>
-                <li><a href="#">Recipsimplgo</a></li>
+                <li><a href="/pages/recipsimplgo-page.html">Recipsimplgo</a></li>
               </ul>
             </div>
             <div class="row">
