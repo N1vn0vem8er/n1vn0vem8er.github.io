@@ -3,7 +3,7 @@ class MainNavbar extends HTMLElement {
     this.innerHTML = `
         <nav>
   <div class="wrapper">
-    <div class="logo"><a href="#">N1vn0vem8er</a></div>
+    <div class="logo"><a href="https://github.com/N1vn0vem8er" target="_blank">N1vn0vem8er</a></div>
     <input type="radio" name="slider" id="menu-btn">
     <input type="radio" name="slider" id="close-btn">
     <ul class="nav-links">
