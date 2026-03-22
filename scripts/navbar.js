@@ -37,7 +37,6 @@ class MainNavbar extends HTMLElement {
                 <li><a href="https://github.com/N1vn0vem8er/verysimplepowermenu" target="_blank">Very Simple Power Menu</a></li>
                 <li><a href="https://github.com/N1vn0vem8er/analogclockwidget" target="_blank">Analog Clock Widget</a></li>
                 <li><a href="https://github.com/N1vn0vem8er/usbdatasender" target="_blank">Usb data sender</a></li>
-                <li><a href="#"></a></li>
               </ul>
             </div>
           </div>

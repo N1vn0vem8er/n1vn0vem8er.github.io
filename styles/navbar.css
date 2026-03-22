@@ -249,7 +249,20 @@ nav .wrapper{
   .content .row header{
     font-size: 19px;
   }
+  #menu-btn:focus-visible ~ .btn.menu-btn,
+  #close-btn:focus-visible ~ .nav-links .btn.close-btn,
+  #showMega:focus-visible + .mobile-item {
+    outline: 2px dashed #f2f2f2;
+    outline-offset: 4px;
+    border-radius: 5px;
+  }
 }
-nav input{
-  display: none;
+nav input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }
