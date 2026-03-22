@@ -54,7 +54,9 @@ nav .wrapper{
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
 }
 .nav-links li:hover .drop-menu,
-.nav-links li:hover .mega-box{
+.nav-links li:focus-within .drop-menu,
+.nav-links li:hover .mega-box,
+.nav-links li:focus-within .mega-box {
   transition: all 0.3s ease;
   top: 70px;
   opacity: 1;
