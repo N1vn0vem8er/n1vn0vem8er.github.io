@@ -22,6 +22,7 @@ class MainNavbar extends HTMLElement {
                 <li><a href="/pages/8080ide-page.html">8080 IDE</a></li>
                 <li><a href="/pages/cutetoolbox-page.html">Cute Toolbox</a></li>
                 <li><a href="/pages/cppeasyrun-page.html">CppEasyRun</a></li>
+                <li><a href="/pages/markdspiral-page.html">Markdspiral</a></li>
               </ul>
             </div>
             <div class="row">
