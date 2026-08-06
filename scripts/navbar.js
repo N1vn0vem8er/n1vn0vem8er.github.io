@@ -35,6 +35,7 @@ class MainNavbar extends HTMLElement {
             <div class="row">
               <header>Other</header>
               <ul class="mega-links">
+                <li><a href="/pages/wallpaperspace-page.html" target="_blank">Wallpaper Space</a></li>
                 <li><a href="https://github.com/N1vn0vem8er/verysimplepowermenu" target="_blank">Very Simple Power Menu</a></li>
                 <li><a href="https://github.com/N1vn0vem8er/analogclockwidget" target="_blank">Analog Clock Widget</a></li>
                 <li><a href="https://github.com/N1vn0vem8er/usbdatasender" target="_blank">Usb data sender</a></li>
